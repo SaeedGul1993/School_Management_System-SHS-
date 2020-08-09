@@ -1,0 +1,26 @@
+.Wave-bg {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+.Img {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-top: 8% !important;
+    padding-left: 10% !important;
+    
+}
+.Img > img {
+    width: 500px;
+    height: 500px;
+}
+.Login-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

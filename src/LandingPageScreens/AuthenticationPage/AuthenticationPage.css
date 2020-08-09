@@ -1,0 +1,74 @@
+
+.ui,.avatar-container {
+    margin-bottom: 20px !important;
+}
+.ui > Input {
+    width: 400px !important;
+    border: 1px solid #c0c0c0 !important;
+    font-size: 17px !important;
+
+}
+.ui > Input::placeholder{
+    font-size: large;
+}
+.ui Input:focus::placeholder{
+    color:  #555454 !important;
+    
+}
+.ui > Input:focus{
+    outline: none !important;
+    border: 1px solid #7e7e7e !important;
+}
+
+.ui > Input:focus ~ .icon {
+    color: #38d39f !important;
+}
+.btn-container{
+    display: flex;
+    justify-content: center !important;
+}
+.btn-container > Button {
+    display: block !important;
+	width: 350px !important;
+	height: 50px !important;
+	border-radius: 25px !important;
+	outline: none !important;
+	border: none !important;
+	background-image: linear-gradient(to right, #2d8668, #38d39f, #32be8f) !important;
+	background-size: 200% !important;
+	font-size: 1.2rem !important;
+	color: #fff !important;
+	font-family: 'Poppins', sans-serif !important;
+	text-transform: uppercase !important;
+	margin: 1rem 0 !important;
+	cursor: pointer !important;
+	transition: .5s !important;
+
+}
+.btn-container > Button:hover {
+    background-position: right !important;
+}
+.login-form-container > h2 {
+    font-weight: 900 !important;
+    color: #000000 !important;
+    font-size: 30px !important;
+    margin-bottom: 40px !important;
+    font-family: 'El Messiri', sans-serif !important;    
+    letter-spacing: 5px;
+
+}
+
+.avatar-container > img {
+    width: 120px !important;
+    height: 120px !important;
+}
+
+a{
+    color: #c0c0c0 !important;
+    font-size: 17px !important;
+    margin-left: 180px !important;
+    cursor: pointer !important;
+}
+a:hover {
+    color: #32be8f !important;
+}

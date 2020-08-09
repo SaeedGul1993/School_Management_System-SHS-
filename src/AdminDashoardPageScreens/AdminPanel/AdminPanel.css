@@ -1,0 +1,37 @@
+.main-title-styling {
+    color: #ffff;
+   font-family:  Courier !important;
+    font-size: 26px !important;
+    font-family: 'El Messiri', sans-serif !important;    
+    letter-spacing: 3px !important;
+}
+.list-text-container>span{
+    color: #838282;
+    font-family: 'El Messiri', sans-serif !important;    
+    font-size: 13px !important;
+    
+}
+.logOut-btn:focus{
+    outline: none !important;
+}
+.active-list-item > .list-style {
+    background: rgba(56, 211, 159, 0.12) !important;
+    border-right: 4px solid rgba(56, 211, 159, 1);
+}
+.active-list-item >.list-style>.list-icon-container >.list-icon {
+    color:rgba(56, 211, 159, 1) !important ;
+}
+.active-list-item>.list-style>.list-text-container>span{
+    color: rgba(56, 211, 159, 1) !important;
+
+}
+.icon-button:focus{
+    outline: none !important;
+}
+.content-container{
+    height: 100vh !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    background: #f1f1f1 !important;
+    
+}

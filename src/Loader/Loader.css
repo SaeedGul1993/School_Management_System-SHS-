@@ -1,0 +1,19 @@
+.loader-container{
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    background: #ffff !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.loader{
+    position: absolute;
+    z-index: 1000;
+}
+.loader > img {
+    width: 200px !important;
+    height: 200px !important;
+}

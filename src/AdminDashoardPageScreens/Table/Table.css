@@ -1,0 +1,151 @@
+.table{
+	width: 100%;
+    border-collapse: collapse;
+    max-height: 420px !important;
+    min-height: 420px !important;
+	overflow-y: auto !important;
+	background-color: #ffffff !important;
+	box-shadow: 10px 20px 30px #e3e3e3 !important;
+	overflow-x: hidden !important;
+
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.table td,.table th{
+  padding:12px 15px;
+  text-align: center;
+  font-family: 'El Messiri', sans-serif !important; 
+  font-size: 12px !important;   
+
+}
+.table th{
+	background-color: #38d39f !important;
+	color:#ffffff;
+	font-size: 12px !important;
+	font-family: 'El Messiri', sans-serif !important;    
+
+}
+.table tbody {
+    display:block;
+	max-height: 420px !important;
+    min-height: 420px !important;
+	overflow-y:auto;
+	overflow-x: auto !important;
+}
+.table-heading
+{
+	font-size: 26px !important;
+	font-family: 'El Messiri', sans-serif !important;
+	text-align: center;  
+	padding-top: 5px !important; 
+}
+.heading-container{
+	width: 100% !important;
+	display: flex;
+	justify-content: space-between !important;
+	padding:10px 10px 0px 10px !important;
+}
+.heading-container Input {
+	width: 250px !important;
+	height: 40px !important;
+}
+.heading-container Input:focus {
+	outline: none !important;
+	border: 1px solid #38d39f !important;
+}
+.heading-container Input:focus::placeholder {
+	color: #38d39f !important;
+}
+
+.btn2{
+	margin-left: 10px;
+	color: rgb(250, 96, 96) !important;
+	cursor: pointer;
+}
+.btn1{
+	color: #38d39f !important;
+	cursor: pointer;
+
+}
+.print-icon:hover{
+	color: #38d39f !important;
+	cursor: pointer;
+}
+.under-modal-container{
+	width: 85% !important;
+	height: 100% !important;
+	overflow-y: auto !important;
+	background: #ffffff !important;
+}
+.print-btn{
+	background: #38d39f !important;
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 60px !important;
+	border: 1px solid #38d39f !important;
+	color: #ffffff !important;
+	margin-left: 50% !important;
+}
+.select-input-fee{
+	width: 250px !important;
+	height: 40px !important;
+	font-family: 'El Messiri', sans-serif !important;
+
+}
+.select-input-fee:focus{
+	border-width: 1px !important;
+    border-color: #38d39f !important;
+    font-family: 'El Messiri', sans-serif !important;
+}
+.print-icon-all {
+	
+	margin-top: 10px !important;
+	margin-right: 10px !important;
+}
+
+.print-icon-all:hover {
+	color: #38d39f;
+	cursor: pointer;
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}
+
+
+
+
+
+
+

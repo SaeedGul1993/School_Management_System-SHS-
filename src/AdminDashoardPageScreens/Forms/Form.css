@@ -1,0 +1,92 @@
+.class-form-container,.class-form>div,.student-form-container,.fee-form-container,.student-form>div,.fee-form>div{
+   display: flex;
+   justify-content: center;
+}
+.class-form-container{
+    padding-top: 105px;
+}
+.student-form{
+    width: 100% !important;
+    height: 500px !important;
+    padding-top: 40px !important;
+}
+.fee-form {
+    width: 100% !important;
+    height: 730px;
+}
+.class-form{
+    width: 600px;
+    height: 300px ;
+}
+.vocuheer-num-style{
+    text-align: center !important;
+    font-family: 'El Messiri', sans-serif !important;
+    font-size: 24px !important;
+}
+.class-form >div> h2,.student-form>div>h2,.fee-form>div>h2 {
+    text-align: center;
+    line-height: 100px;
+    margin-left: 5px; 
+    font-family: 'El Messiri', sans-serif !important;   
+}
+.class-form>div>.form-icon,.student-form>div>.form-icon,.fee-form>div>.form-icon{
+    font-size: 25px;
+    margin-top: 28px;
+    color: #38d39f;
+}
+.class-inputField Input ,.student-inputField Input ,.fee-inputField Input{
+    border-width: 1px !important;
+}
+.select-placeholder{
+    padding-left: 20px;
+}
+.class-inputField Input::placeholder,.student-inputField Input::placeholder,.select-placeholder,.fee-inputField Input::placeholder{
+    font-size: 17px;
+    font-family: 'El Messiri', sans-serif !important;
+}
+.class-inputField Input:focus::placeholder,.student-inputField Input:focus::placeholder,.fee-inputField Input:focus::placeholder{
+    color: #38d39f  !important;
+    font-size: 17px !important;
+}
+.class-inputField Input:focus,.student-inputField Input:focus,.student-inputField >.select-input:focus,.fee-inputField Input:focus ,.fee-inputField >.select-input:focus {
+    border-width: 1px !important;
+    border-color: #38d39f !important;
+    font-family: 'El Messiri', sans-serif !important;
+}
+.class-form-btn Button {
+    margin-top: 20px !important;
+}
+.class-form-btn Button,.student-form-btn Button {
+    width: 300px !important;
+    height: 50px !important;
+    font-size: 17px !important;
+    font-family: 'El Messiri', sans-serif !important;
+    background: #38d39f !important;
+    color: #ffffff !important;
+    border: 1px solid #38d39f!important;
+}
+.student-form-btn Button {
+    margin-bottom: 10px !important;
+}
+.class-form-btn Button:hover,.student-form-btn Button:hover{
+    border: 1px solid #38d39f!important;
+}
+.class-form-btn Button:focus,.student-form-btn Button:focus{
+    outline: none !important;
+}
+.student-inputField,.fee-inputField {
+    display: flex;
+    justify-content: space-evenly !important;
+}
+.student-inputField >.select-input,.fee-inputField >.select-input{
+   width: 400px !important;
+   height: 45px !important;
+   border:1px solid rgba(34,36,38,.4) !important; 
+   font-size: 17px !important;
+   font-family: 'El Messiri', sans-serif !important;
+}
+.alert-text{
+    font-size: 17px !important;
+    font-family: 'El Messiri', sans-serif !important;
+}
+

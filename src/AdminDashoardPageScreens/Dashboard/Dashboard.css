@@ -1,0 +1,56 @@
+.small-detail-container,.under-card-container,.charts-container,.table-container {
+    display: flex;
+    justify-content: center;
+}
+.under-card-container{
+    align-items: center !important;
+    justify-content: space-between ;
+    padding-top: 15px !important;
+
+}
+.table-container {
+    margin-bottom: 20px !important;
+}
+.small-detail-container > .small-detail-card {
+    width: 420px;
+    height: 120px;
+    background: #ffffff;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+}
+.icon-style{
+    font-size: 50px !important;
+    color: #38d39f !important;
+}
+.card-title{
+    font-size: 22px !important;
+    font-family: 'El Messiri', sans-serif !important; 
+    line-height: 0.1em !important;   
+}
+.quantity{
+    font-size: 18px !important;
+    font-family: 'El Messiri', sans-serif !important;
+    color: #38d39f !important;
+}
+.under-card-container>div{
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+}
+.bar-chart-container,.pie-chart-container{
+    background-color: #ffff !important;
+    width: 50%!important;
+    height: 350px !important;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+}
+#pieChart{
+    width: 100% !important;
+    height: 100% !important;
+    overflow-x: scroll !important;
+
+}
+#barChart{
+    width: 100% !important;
+    height: 100% !important;
+
+}
